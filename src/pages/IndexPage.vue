@@ -6,15 +6,14 @@
       style="width: 200px; height: 200px"
     />
   </q-page>
-  <LoginForm />
 </template>
 
 <script>
 import { defineComponent } from "vue";
-import LoginForm from "components/auth/LoginForm.vue";
+//import LoginForm from "components/auth/LoginForm.vue";
 
 export default defineComponent({
   name: "IndexPage",
-  components: { LoginForm },
+  //components: { LoginForm },
 });
 </script>
